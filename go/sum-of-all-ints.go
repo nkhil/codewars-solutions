@@ -14,6 +14,7 @@ func main() {
 		fmt.Sprint(SumOfIntegersInString("10a10a3zz")),
 	)
 }
+
 func SumOfIntegersInString(strng string) int {
   r := 0
   for _, s := range regexp.MustCompile(`\d+`).FindAllString(strng, -1) {
