@@ -6,14 +6,14 @@ import (
 )
 
 func main() {
-	result := Points([]string{"1:0","2:0","3:0","4:0","2:1","3:1","4:1","3:2","4:2","4:3"})
+	result := Points([]string{"1:0", "2:0", "3:0", "4:0", "2:1", "3:1", "4:1", "3:2", "4:2", "4:3"})
 	fmt.Printf(fmt.Sprint(result))
 }
 
 func Points(games []string) int {
 	var totalScore int
 
-  for _, g := range games {
+	for _, g := range games {
 		parts := strings.Split(g, ":")
 		myTeamScore := parts[0]
 		otherTeamScore := parts[1]
