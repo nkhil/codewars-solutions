@@ -1,5 +1,18 @@
 // https://www.codewars.com/kata/52f787eb172a8b4ae1000a34/train/go
 // This is by Bard
+// This algorithm works by repeatedly shifting the number n
+// to the right by 1 bit and checking if the least significant
+// bit is not set. If the least significant bit is not set,
+// the algorithm increments the number of zeroes.
+
+// The function CountZeroes() takes an integer as input
+// and returns an integer. The integer returned by the
+// function is the number of bits that are equal to zero
+// in thebinary representation of the input number.
+
+// The example you gave has the binary representation 10011010010.
+// The number of zeroes in this binary representation is 2.
+// So, the function should return 2 in this case.
 
 package main
 

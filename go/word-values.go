@@ -27,7 +27,7 @@ import (
 )
 func main() {
 	fmt.Println(
-		CalculateArrayScore([]string{"codewars","abc","xyz"}),
+		int('z' - 'a'),
 	)
 }
 
