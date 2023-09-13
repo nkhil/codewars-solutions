@@ -18,3 +18,5 @@ func main() {
   backToString := string(byteArray[:]) // "foo"
 }
 ```
+
+## When to use panic
