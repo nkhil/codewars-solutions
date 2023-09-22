@@ -3,9 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	str := "foo"
-	byteArray := []byte(str)
-	fmt.Println(byteArray)
-	backToString := string(byteArray[:])
-	fmt.Println(backToString)
+	arr := []int{1, 2}
+	fmt.Println(arr[0:3])
 }
